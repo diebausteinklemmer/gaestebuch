@@ -1,0 +1,19 @@
+{
+  "name": "gaestebuch",
+  "version": "1.0.0",
+  "description": "Gästebuch Backend mit Moderation, SQLite und E-Mail-Freigabe",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemailer": "^7.0.12"
+  }
+}
